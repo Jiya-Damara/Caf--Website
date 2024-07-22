@@ -1,0 +1,193 @@
+*
+{
+    margin: 0;
+    
+    scroll-behavior:smooth;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 15px black;
+}
+.navbar nav
+{
+    
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+.navbar nav a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar nav a:hover
+{
+   font-size:21px;
+}
+
+.navbar nav #logo{
+    height: 40px;
+   
+}
+.navbar nav #logoname
+{
+    height:50px;
+    
+}
+.navbar nav div{
+    text-align: center;
+    
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mode
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+    position: relative;
+    bottom: 200px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.order
+{
+    width: 80%;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    font-weight: 900;
+    
+}
+
+.food
+{
+    font-weight: 350;
+    border: 1px solid black;
+    padding: 40px;
+}
+.food p{
+    font-weight: 600;
+    text-align: center;
+}
+hr{
+    width: 300px;
+    position: relative;
+    left: 335px;
+    height: 3px;
+    background-color: black;
+}
+
+
+input[type="text"],input[type="email"],input[type="number"]
+{
+    width: 445px;
+    height: 30px;
+    padding: 2px;
+}
+select
+{
+    padding: 4px;    
+}
+textarea{
+    padding: 10px;
+}
+
+span
+{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;    
+    border-radius: 2px;  
+}
+.contact
+{
+    box-shadow: 0px 1px 15px black;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    height: 400px;
+    text-align: center;
+}
+.contact img
+{
+    margin-top: 60px;
+    width: 300px;
+}
+
+
+.contact p
+{
+    font-size: 20px;
+}
+.contact p h1
+{
+    font-size: 1px;
+}
+
+.contact .details
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .details .personal
+{
+    width: 200px;
+    line-height: 30px;
+}
+
+input[type="submit"]
+{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+input[type="reset"]
+{
+    width: 19.37%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+}

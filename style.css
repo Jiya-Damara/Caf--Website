@@ -1,0 +1,289 @@
+*
+{
+    margin: 0;
+    
+    scroll-behavior:smooth;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.intro
+{
+    background-image: url(introwall.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro div{
+    text-align: center;
+    backdrop-filter: blur(7px);
+    box-shadow: 0px 0px 5px ;
+    border-radius: 40px;
+    padding: 40px;
+    
+    
+}
+.intro p
+{
+    font-size: 30px;
+}
+.intro #name
+{
+    color: #C75000;
+    font-size: 80px;
+}
+
+
+.intro div a{
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px black;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #C75000;
+    color: black;
+}
+
+.intro div a:hover{
+    background-color: transparent;
+    color: #C75000;
+    
+}
+
+.navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 15px black;
+}
+.navbar nav
+{
+    
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+.navbar nav a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar nav a:hover
+{
+   font-size:21px;
+}
+
+.navbar nav #logo{
+    height: 40px;
+   
+}
+.navbar nav #logoname
+{
+    height:50px;
+    
+}
+.navbar nav div{
+    text-align: center;
+    
+}
+
+.content 
+{
+    
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .text
+{
+    width: 600px;
+}
+.content .text a{
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color:black;
+}
+
+.content .text a:hover{
+    background-color: black;
+    color: white;
+}
+
+.content .text #head{
+    font-weight: 900;
+    font-size: 40px;
+    
+}
+.content .text #subhead
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.content .text #subtext
+{
+    font-size: 15px;
+}
+
+
+.franchise
+{
+    background-image: url(franchise.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 550px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.franchise div
+{
+
+    background-color:black;
+    color:white;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 40px;
+    width: 600px;
+}
+.franchise div h2
+{
+    font-size: 40px;
+    
+}
+
+.gallery{
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+    margin-top: 50px;
+    
+}
+
+.gallery h1
+{
+    font-size: 40px;
+}
+
+.gallery div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img
+{
+    height: 180px;
+    width: 150px;
+}
+
+.contact
+{
+    
+    background-color: black;
+    color: white;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 0px 1px 15px black;
+
+}
+
+.contact h1,p
+{
+    text-align: center;
+}
+
+.contact p
+{
+    font-size: 20px;
+}
+
+.contact .details
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    position: relative;
+    top: 60px;
+}
+
+.contact .details .personal
+{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.contact .details .form
+{
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+
+input[type="text"],input[type="email"], input[type="number"],textarea
+{
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: black;
+    outline: none;
+    width: 300px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+input[type="submit"]
+{
+    border: none;
+    width: 635px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 6px;
+    font-size: 18px;
+    color:white;
+    padding: 5px;
+}
+
+input[type="submit"]:hover
+{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+
+input[type="text"],input[type="email"], input[type="number"]
+{
+    font-size: 18px;
+    
+}
+input[type="text"]
+{
+    width: 635px;
+}
+
+textarea{
+    width: 635px;
+    height: 50px;
+}
+

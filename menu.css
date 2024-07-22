@@ -1,0 +1,174 @@
+*
+{
+    margin: 0;
+    
+    scroll-behavior:smooth;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.navbar
+{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 15px black;
+} 
+.navbar nav
+{
+    
+    background-color: black;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+}
+.navbar nav a{
+    color: white;
+    text-decoration: none;
+
+}
+.navbar nav a:hover
+{
+   font-size:21px;
+}
+
+.navbar nav #logo{
+    height: 40px;
+   
+}
+.navbar nav #logoname
+{
+    height:50px;
+    
+}
+.navbar nav div{
+    text-align: center;
+    
+}
+
+
+.container img
+{
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 15px;
+    border: 1px solid black;
+}
+.menu
+{
+    padding: 40px;
+    display: flex;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    
+}
+.menu h1{
+    line-height: 50px;
+}
+
+.pic
+{
+    width: 30%;
+    text-align: center;
+}
+.desc
+{
+    position: relative;
+    top: 60px;
+    width: 40%;
+    text-align: center;
+}
+
+.desc hr{
+    width: 30%;
+    position: relative;
+    left: 240px;
+    height: 5px;
+    background-color: black;
+}
+
+.contact
+{
+    
+    background-color: black;
+    color: white;
+    height: 400px;
+    box-shadow: 0px 1px 15px black;
+    text-align: center;
+}
+
+.contact img
+{
+    margin-top: 60px;
+    width: 300px;
+}
+
+
+.contact p
+{
+    font-size: 20px;
+}
+.contact p h1
+{
+    font-size: 1px;
+}
+
+.contact .details
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .details .personal
+{
+    width: 200px;
+    line-height: 30px;
+}
+
+h1
+{
+    text-align: center;
+}
+hr{
+    position: relative;
+    left: 600px;
+    width: 300px;
+    height: 5px;
+    background-color: black;
+}
+
+tr{
+    height: 120px;
+}
+table{
+    width: 1200px;
+    
+}
+td{
+    
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+#rate
+{
+    width: 100px;
+    padding-left: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.more
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
